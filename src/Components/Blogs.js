@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Blog_img3 from '../Images/Blog_img3.png'
-import Blog_img2 from '../Images/Blog_img2.png'
-import Blog_img1 from '../Images/Blog_img1.png'
-
+ 
 function Blogs() {
+
+ 
+  
   return (
     <>
       <div className="home-blog-section wf-section" id="BLOGS">
@@ -24,7 +24,7 @@ function Blogs() {
                 <div role="listitem" className="w-dyn-item">
                   <Link to="/blogs/7-killer.html" className="blogs-wrapper w-inline-block">
                     <div className="blog-thumbnail-contain featured">
-                      <img src= {Blog_img3} loading="lazy" alt=""
+                      <img src= "https://ik.imagekit.io/ebike99/digital_marketing_services.webp?updatedAt=1684133648023" loading="lazy" alt=""
                         className="blog-thumbnail-image" />
                     </div>
                     <div className="blog-info-wrapper">
@@ -34,8 +34,7 @@ function Blogs() {
                         forward in become it
                       </h4>
                       <div data-w-id="e20efc18-893b-21e5-ef44-8d2897e0bb12" className="red-link">
-                        <div>Read More</div>
-                        <img src="/assets/62d1b04ba6695c5e4e945dbd_Icon.svg" loading="lazy" alt="" className="arrow" />
+                        <div>Read More</div>       
                       </div>
                     </div>
                   </Link>
@@ -47,7 +46,7 @@ function Blogs() {
                 <div role="listitem" className="w-dyn-item">
                   <Link to="/" className="blogs-wrapper w-inline-block">
                     <div className="blog-thumbnail-contain">
-                      <img src={Blog_img1} loading="lazy" alt=""
+                      <img src="https://ik.imagekit.io/ebike99/How-to-Start-a-Blog-That-Makes-You-Money.webp?updatedAt=1684134395825" loading="lazy" alt=""
                         className="blog-thumbnail-image" />
                     </div>
                     <div className="blog-info-wrapper">
@@ -57,7 +56,7 @@ function Blogs() {
                       </h5>
                       <div data-w-id="e20efc18-893b-21e5-ef44-8d2897e0bb22" className="red-link">
                         <div>Read More</div>
-                        <img src="/assets/62d1b04ba6695c5e4e945dbd_Icon.svg" loading="lazy" alt="" className="arrow" />
+                         
                       </div>
                     </div>
                   </Link>
@@ -69,7 +68,7 @@ function Blogs() {
                 <div role="listitem" className="w-dyn-item">
                   <Link to="/" className="blogs-wrapper w-inline-block">
                     <div className="blog-thumbnail-contain">
-                      <img src={Blog_img2} loading="lazy" alt=""
+                      <img src="https://ik.imagekit.io/ebike99/top-fb-updates.webp?updatedAt=1684135089099" loading="lazy" alt=""  
                         className="blog-thumbnail-image" />
                     </div>
                     <div className="blog-info-wrapper">
@@ -77,7 +76,7 @@ function Blogs() {
                       <h5 className="blog-title">The History Of Web Design</h5>
                       <div data-w-id="e20efc18-893b-21e5-ef44-8d2897e0bb32" className="red-link">
                         <div>Read More</div>
-                        <img src="/assets/62d1b04ba6695c5e4e945dbd_Icon.svg" loading="lazy" alt="" className="arrow" />
+                         
                       </div>
                     </div>
                   </Link>
