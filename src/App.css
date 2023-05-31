@@ -6690,7 +6690,7 @@ a.nav-brand.w-nav-brand.w--current {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  grid-row-gap: 12px;
+  /* grid-row-gap: 12px; */
 }
 
 .footer-column-heading {
@@ -7114,7 +7114,7 @@ a.nav-brand.w-nav-brand.w--current {
 
 .faq-section {
   overflow: hidden;
-  padding: 0px 0px 100px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .faq-main-wrapper {

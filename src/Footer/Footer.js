@@ -20,12 +20,11 @@ function Footer() {
                         <div className="footer-column">
                             <h6 className="footer-column-heading">ADDRESS</h6>
                             <div className="footer-links-contain">
-                                <p className="footer-link">
+                                {/* <p className="footer-link">
                                     Plot No - 269,<br /> Phase IV, Udyog Vihar Gurugram , Gurgaon
-                                </p>
+                                </p> */}
                                 <p className="footer-link">
-                                    Inner Circle, Connaught Place,<br /> E-13/29 First Floor ,<br /> 110001 · E-3 Rani Jhansi Road, Block E
-                                    4, Jhandewalan Extension, 110055
+                                     Bestech Business Tower, Office No: 412 Tower-A , 4th Floor, Sahibzada Ajit Singh Nagar, Punjab 160066
                                 </p>
                             </div>
                         </div>
@@ -34,10 +33,10 @@ function Footer() {
                         <div className="footer-column ">
                             <h6 className="footer-column-heading">GET IN TOUCH</h6>
                             <div className="footer-links-contain">
-                                <Link href="tel:+91 99910393041" className="footer-link">+91 999-1039-3041</Link><Link
-                                    href="mailto:WebTechSolutions@gmail.com" className="footer-link">WebTechSolutions@gmail.com</Link>
+                                <Link to="tel:+91 8427682603" className="footer-link">+91 842-7682-603</Link><Link
+                                    to="mailto:WebTechSolutions@gmail.com" className="footer-link">info@webtechsolutionsservice.com</Link>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                     <div className='col-lg-2 col-md-6 footer-right-contain'>
                         <div className="footer-column">
