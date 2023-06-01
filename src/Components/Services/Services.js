@@ -37,7 +37,7 @@ function Services() {
                   With our innovative web design and development techniques, you can transform your website into a valuable source of visitors and revenue.
                 </div>
                 <Link onClick={scrollToTop}
-                  to="/services/digital-marketing"
+                  to="/contact-us"
                   className="black-small-button3 w-button">Get Free Consultation</Link>
               </div>
             </div>
