@@ -5048,7 +5048,7 @@ figcaption {
   padding: 0px;
 }
 a.nav-brand.w-nav-brand.w--current {
-  width: 10%;
+  width: 20%;
 }
 .nav-container {
   display: -webkit-box;
@@ -5262,7 +5262,7 @@ a.nav-brand.w-nav-brand.w--current {
   max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
-  padding: 100px 0px 20px 0px;
+  padding: 80px 0px 80px 0px;
 }
 
 
@@ -6335,7 +6335,7 @@ a.nav-brand.w-nav-brand.w--current {
 .main-cta-left-contain {
   position: relative;
   z-index: 5000;
-  width: 38%;
+  width: 50%;
   max-width: 480px;
   padding-top: 100px;
   padding-bottom: 40px;
@@ -6377,10 +6377,11 @@ a.nav-brand.w-nav-brand.w--current {
   right: 0%;
   bottom: 0%;
   z-index: 5;
-  width: 58%;
+  width: 50%;
   height: 100%;
   max-width: 727px;
-  margin-top: -80px;
+  transform: scale(0.8);
+  /* margin-top: -80px; */
   -o-object-fit: contain;
   object-fit: contain;
 }
@@ -7295,7 +7296,7 @@ a.nav-brand.w-nav-brand.w--current {
   margin-right: auto;
   margin-left: auto;
   /* padding-top: 124px; */
-  padding-bottom: 108px;
+  padding-bottom: 60px;
  }
 
 .how-it-works-header {
@@ -7586,10 +7587,10 @@ a.nav-brand.w-nav-brand.w--current {
 font-size: 18px;
 }
 
-/* .features-tools-grid-cell {
-  width: 30%;
-  max-width: 320px;
-} */
+.features-tools-grid-cell {
+ text-align: center;
+ padding: 30px;
+}
 
 .tools-grid-image {
   margin-bottom: 32px;

@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import WebtechLogo from '../Images/webtechLogo.png'
+// import WebtechLogo from '../Images/webtechLogo.png'
+import WebtechLogo2 from '../Images/webtechlogo2.png'
 
 function Navbar() {
   const [menuBar, setMenuBar] = useState(false)
@@ -39,7 +40,7 @@ function Navbar() {
         <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease"
           role="banner" className="navbar w-nav">
           <div className="nav-container">
-            <Link to="/" aria-current="page" className="nav-brand w-nav-brand w--current"><img onClick={scrollToHome} src={WebtechLogo} loading="lazy" alt="" className="nav-logo-image" /></Link>
+            <Link to="/" aria-current="page" className="nav-brand w-nav-brand w--current"><img onClick={scrollToHome} src={WebtechLogo2} loading="lazy" alt="" className="nav-logo-image" /></Link>
             <nav role="navigation" className="nav-menu w-nav-menu">
               <Link onClick={scrollToHome} to="/" aria-current="page" className="nav-link w-nav-link ">Home</Link>
               <Link onClick={scrollToHome} to="/services" className="nav-link w-nav-link">Services</Link>

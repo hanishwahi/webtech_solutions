@@ -26,8 +26,7 @@ function Banner() {
         </div>
       </div>
       <div  className="hero-image-wrapper">
-        <img src="/assets/62d1b04ba6695cdb9c945dbb_Hero%20Shape%20Stars.png" loading="eager" 
-          data-w-id="311abaf7-3394-90d0-d3e1-453b181c794c" alt="" className="home-hero-element _3" />
+         
         <div className="spacer-y"></div>
       </div>
     </>
