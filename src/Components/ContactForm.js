@@ -57,7 +57,7 @@ function ContactForm() {
                       className="contact-text-field message w-input" spellCheck="false"></textarea>
                   </div>
                 </div>
-                <input onClick={submitData} type="submit" value="Send message" data-wait="Please wait..."
+                <input onClick={submitData}  type="submit" value="Send message" data-wait="Please wait..."
                   className="contact-submit-button w-button" />
 
 

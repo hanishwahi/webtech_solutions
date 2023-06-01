@@ -5039,8 +5039,8 @@ a.nav-brand.w-nav-brand.w--current {
   max-width: 1280px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -5216,7 +5216,7 @@ a.nav-brand.w-nav-brand.w--current {
 
 .digital_marketing_list li{
   color: #42ade3 !important;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
 .digital_marketing_list p{
@@ -6195,7 +6195,7 @@ a.nav-brand.w-nav-brand.w--current {
 
 .home-tabs-sub-heading {
   color: #42ade3;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .tabs-content-text {
@@ -7578,7 +7578,7 @@ font-size: 18px;
 .tools-grid-image {
   margin-bottom: 32px;
   border-radius: 10px;
-  box-shadow: 2px 2px 93.56px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 2px 2px 93.56px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .tools-grid-heading {

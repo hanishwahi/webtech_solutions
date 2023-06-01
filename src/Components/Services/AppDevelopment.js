@@ -14,6 +14,7 @@ function AppDevelopment() {
 
                 <div className='container'>
                     <div className='row mt-5'>
+                    <h5 className="home-tabs-heading mb-4">App Development</h5>
                         <div className="tabs-content-text digital_marketing_list">
                             <div>
                                 <h5 className="home-tabs-sub-heading">Transforming Ideas into Seamless Apps

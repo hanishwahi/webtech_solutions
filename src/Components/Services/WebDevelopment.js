@@ -16,6 +16,8 @@ function WebDevelopment() {
                 <div className='container'>
                       {/* webdevelopment */}
                     <div className='row mt-5'>
+                    <h5 className="home-tabs-heading mb-4">Website Development</h5>
+
                         <h5 className="home-tabs-sub-heading">Achieve your business goals with web development solutions</h5>
                         <div className="tabs-content-text digital_marketing_list">
                             <p className='text-dark'>Unleash the power of your online presence with our cutting-edge web development solutions. From stunning designs to seamless functionality, we create websites that captivate your audience and drive success. Elevate your digital game with our expert team. with a great user Interface with the best design for your own website. We help you establish your business, brand and other things online. </p>
@@ -59,7 +61,7 @@ function WebDevelopment() {
 
                     {/* webdesigning */}
                     <div className='row'>
-                        <h5 className="home-tabs-sub-heading">Website Designing:</h5>
+                        <h5 className="home-tabs-heading mb-4">Website Designing</h5>
                         <div className="tabs-content-text digital_marketing_list">
                             <p className='text-dark'>Transform your online presence with Web Tech Solutions Services, a leading web design agency. We create captivating websites that showcase your brand, boost conversions, and drive revenue. <br/><br/>
                             Launch your success story today!<br/><br/>

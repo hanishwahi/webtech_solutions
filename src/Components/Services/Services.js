@@ -43,7 +43,7 @@ function Services() {
             </div>
             <div className='row py-3 py-md-5 justify-content-center'>
               <div className='text-center'>
-                <h5 className="home-tabs-sub-heading">WHY CHOOSE US</h5>
+                <h5 className="home-tabs-heading">WHY CHOOSE US</h5>
                 <div className="home-tabs-header-text text-center">
                   FOR YOUR WEB DESIGN & DEVELOPMENT NEEDS?
                 </div>

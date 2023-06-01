@@ -15,6 +15,7 @@ function GraphicDesigning() {
                 </div>
                 <div className='container'>
                     <div className='row mt-5'>
+                      <h5 className="home-tabs-heading mb-4">Graphic Designing</h5>
                         <h5 className="home-tabs-sub-heading">From Concept to Creation: Unleash the Magic of Graphic Design</h5>
                         <div className="tabs-content-text digital_marketing_list">
                             <p className='text-dark'>Web Tech Solutions Service's outstanding graphic designers will create whatever you need, whether it's an extraordinary illustration, lovely print designs, or captivating digital marketing assets. 
