@@ -11,7 +11,7 @@ function CreateWebsite() {
                 <div className="email-tools-left text-sm-center ">
                   <img className='img-fluid'
                     src="https://ik.imagekit.io/ebike99/main_images_TRT.png?updatedAt=1684996165888"
-                    loading="lazy" sizes="(max-width: 633px) 90vw, (max-width: 767px) 570px, (max-width: 1439px) 44vw, 570px"
+                    loading="lazy" 
                     alt="" />
                 </div>
                 <div className="email-tools-right text-sm-center text-md-start">

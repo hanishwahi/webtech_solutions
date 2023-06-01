@@ -1,7 +1,4 @@
 import React from 'react'
-// import Img1 from '../Images/62d1b04ba6695c5063945e06_Mask group-min (1).png'
-// import Img2 from '../Images/62d1b04ba6695c12c4945e07_Mask group-1.svg'
-// import Img3 from '../Images/62d1b04ba6695c5a22945e08_Mask group.svg'
 import HowImg from '../Images/how-we-work.webp'
 
 
@@ -22,7 +19,7 @@ function HowWeWorks() {
         <div className="how-it-works-content-wrap">
           <div className="how-it-works-left-contain">
             <img src={HowImg} loading="lazy"
-              sizes="(max-width: 767px) 90vw, (max-width: 991px) 500px, (max-width: 1439px) 48vw, 629px" alt=""
+              alt=""
               className="how-it-works-image" />
           </div>
           <div className="how-it-works-right-contain">

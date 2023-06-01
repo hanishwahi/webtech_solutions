@@ -30,7 +30,7 @@ function Services() {
               <div className='col-md-6 align-self-center'>
                 <img src={Services_Enterprice} alt='' />
               </div>
-              <div className='col-md-6 align-self-center'>
+              <div className='col-md-6 align-self-center py-3'>
                 <h5 className="home-tabs-sub-heading">Our Enterprise App And Web Solutions Can Help You Strengthen Your Brand.</h5>
                 <div className="home-tabs-header-text">
                   Whether you need a simple yet elegant portfolio website or a complex e-commerce platform, we tailor our solutions to meet your unique business goals and requirements. Our websites are not just visually appealing, but they are also optimised for search engines (SEO) to improve your online visibility and attract organic traffic.
@@ -41,7 +41,7 @@ function Services() {
                   className="black-small-button3 w-button">Get Free Consultation</Link>
               </div>
             </div>
-            <div className='row py-md-5 justify-content-center'>
+            <div className='row py-3 py-md-5 justify-content-center'>
               <div className='text-center'>
                 <h5 className="home-tabs-sub-heading">WHY CHOOSE US</h5>
                 <div className="home-tabs-header-text text-center">
