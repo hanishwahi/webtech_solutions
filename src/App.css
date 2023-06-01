@@ -4476,7 +4476,7 @@ figcaption {
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
   color: #fff;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 182%;
   text-decoration: none;
 }
@@ -5208,19 +5208,19 @@ a.nav-brand.w-nav-brand.w--current {
 }
 
 .digital_marketing_list ul li{
-  color: #000 !important;
+  color: #6e7687 !important;
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 12px;
 }
 
 .digital_marketing_list li{
-  color: #0082f3 !important;
+  color: #42ade3 !important;
   font-size: 20px;
   font-weight: 700;
 }
 .digital_marketing_list p{
-  color: #000;
+  color: #6e7687 !important;
   font-size: 17px;
   font-weight: 400;
   text-align: justify;
@@ -5256,7 +5256,7 @@ a.nav-brand.w-nav-brand.w--current {
   margin-bottom: 24px;
   text-align: center;
   color: #fff;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .home-hero-text {
@@ -5264,7 +5264,7 @@ a.nav-brand.w-nav-brand.w--current {
   margin-right: auto;
   margin-bottom: 54px;
   margin-left: auto;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 155%;
   text-align: center;
   color: #fff;
@@ -5985,7 +5985,7 @@ a.nav-brand.w-nav-brand.w--current {
 }
 
 .black-small-button2:hover {
-  background-color: #0082F1;
+  background-color: #42ade3;
   color: #fff;
 }
 
@@ -6324,6 +6324,7 @@ a.nav-brand.w-nav-brand.w--current {
 .main-cta-heading {
   margin-bottom: 20px;
   line-height: 125%;
+  font-size: 34px;
 }
 
 .main-cta-button {
@@ -6335,6 +6336,7 @@ a.nav-brand.w-nav-brand.w--current {
   transition: background-color 200ms ease, color 200ms ease;
   line-height: 150%;
   font-weight: 700;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -6347,6 +6349,7 @@ a.nav-brand.w-nav-brand.w--current {
   margin-bottom: 32px;
   line-height: 162%;
   font-weight: 500;
+  font-size: 17px;
 }
 
 .main-cta-image {
@@ -6653,6 +6656,7 @@ a.nav-brand.w-nav-brand.w--current {
 .footer-right-text {
   color: #f3f3f3;
   line-height: 169%;
+  font-size: 17px;
 }
 
 .footer-column {
@@ -6994,6 +6998,7 @@ a.nav-brand.w-nav-brand.w--current {
   font-family: Epilogue, sans-serif;
   color: #fff;
   line-height: 140%;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -7119,7 +7124,7 @@ a.nav-brand.w-nav-brand.w--current {
 
 .faq-heading {
   margin-bottom: 60px;
-  font-size: 40px;
+  font-size: 34px;
 }
 
 .faq-card {
@@ -7285,12 +7290,12 @@ a.nav-brand.w-nav-brand.w--current {
 .how-it-works-heading {
   margin-bottom: 20px;
   text-align: center;
-  font-size: 40px;
+  font-size: 34px;
 }
 
 .how-it-works-header-text {
   color: #6e7687;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 155%;
   text-align: center;
 }
@@ -7377,11 +7382,12 @@ a.nav-brand.w-nav-brand.w--current {
 
 .how-it-works-point-heading {
   margin-bottom: 10px;
+  font-size: 22px;
 }
 
 .how-it-works-point-text {
   color: #6e7687;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 155%;
 }
 
@@ -7536,12 +7542,14 @@ a.nav-brand.w-nav-brand.w--current {
 
 .features-tools-heading {
   text-align: center;
-  font-size: 40px;
+  font-size: 34px;
+  line-height: 36px;
 }
 
 .features-tools-header-text {
   color: #4f4f4f;
   text-align: center;
+  font-size: 17px;
 }
 
 .features-tools-grid {
@@ -7580,6 +7588,7 @@ font-size: 18px;
 .tools-grid-text {
   color: #6e7687;
   line-height: 150%;
+  font-size: 17px;
 }
 
 .features-grid-section {
@@ -8172,12 +8181,13 @@ font-size: 18px;
   margin-bottom: 32px;
 }
 .email-lools-heading{
-  font-size: 34px;
+  font-size: 33px;
+  line-height: 34px;
 }
 
 .email-tools-text {
   color: #6e7687;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 185%;
 }
 
@@ -8193,12 +8203,16 @@ font-size: 18px;
   -webkit-box-align: center;
    -ms-flex-align: center;
 }
+.img-fluid {
+  max-width: 100%;
+   height: 650px;
+}
 
 .email-tools-sub-heading {
   margin-bottom: 4px;
 }
 .email-tools-sub-heading{
-  font-size: 45px;
+  font-size: 36px;
 }
 
 .email-tools-sub-text {

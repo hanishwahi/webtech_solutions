@@ -42,7 +42,7 @@ function Navbar() {
               <Link onClick={scrollToHome} to="/" aria-current="page" className="nav-link w-nav-link ">Home</Link>
               <Link onClick={scrollToHome} to="/about-us" className="nav-link w-nav-link">About Us</Link>
               <Link onClick={scrollToHome} to="/services" className="nav-link w-nav-link">Services</Link>
-              <Link to="/" className="nav-link w-nav-link">Our Team</Link>
+              <Link onClick={scrollToHome} to="/" className="nav-link w-nav-link">Our Team</Link>
              
               <Link to="tel:+1(877)966-2244" className="nav-link w-nav-link">+1(877)966-2244</Link>
 
