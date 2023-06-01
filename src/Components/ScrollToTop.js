@@ -10,8 +10,7 @@ function ScrollToTop() {
             top: 0,
             behavior: 'smooth',
         });
-        console.log("hhhh")
-    };
+     };
 
     useEffect(() => {
         window.addEventListener('scroll', () => {

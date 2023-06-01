@@ -33,7 +33,7 @@ function Footer() {
                         <div className="footer-column ">
                             <h6 className="footer-column-heading">GET IN TOUCH</h6>
                             <div className="footer-links-contain">
-                                <Link to="tel:+91 8427682603" className="footer-link">+91 842-7682-603</Link><Link
+                                <Link to="tel:+1(877)966-2244" className="footer-link">+1(877)966-2244</Link><Link
                                     to="mailto:info@webtechsolutionsservice.com" className="footer-link">info@webtechsolutionsservice.com</Link>
                             </div>
                         </div> 

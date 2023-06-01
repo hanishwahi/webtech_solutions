@@ -30,9 +30,6 @@ function Navbar() {
 
 
  
-  const scrollToContact = () => {
-    window.scrollTo({ top: 2910, behavior: 'smooth' });
-  };
 
   return (
     <>
@@ -50,7 +47,7 @@ function Navbar() {
 
             </nav>
             <div className="nav-button-contain">
-              <Link onClick={scrollToContact} to="/" className="nav-button out w-button">Contact Us</Link>
+              <Link onClick={scrollToHome} to="/contact-us" className="nav-button out w-button">Contact Us</Link>
             </div>
             <button className='btn shadow-none new-menu' onClick={showMe}><i className="fa-solid fa-bars h2 "></i></button>
             {/* canwa off  */}

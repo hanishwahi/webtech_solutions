@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from './Header/Header';
 import Home from './Components/Home';
 import Footer from './Footer/Footer';
@@ -11,12 +11,14 @@ import AppDevelopment from './Components/Services/AppDevelopment';
 import '../src/Style/Responsive.css'
 import AboutUs from './Components/AboutUs';
 import GraphicDesigning from './Components/Services/GraphicDesigning';
-
+import PageNotFound from './Components/PageNotFound';
+import ContactForm from './Components/ContactForm';
+   
 function App() {
   return (
     <>
 
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Routes>
           <Route index element={<Home />} />
@@ -26,13 +28,18 @@ function App() {
           <Route path='/services/web-development' element={<WebDevelopment />} />
           <Route path='/services/app-development' element={<AppDevelopment />} />
           <Route path='/services/graphic-designing' element={<GraphicDesigning/>} />
-        </Routes>
-
+          <Route path='/contact-us' element={<ContactForm/>} />
+           <Route path='*' element={<PageNotFound/>}/>
+         </Routes>
+ 
         <Footer />
         <ScrollToTop />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
 
 export default App;
+
+
+ 

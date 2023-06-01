@@ -2,8 +2,8 @@ import React from 'react'
  import { Link } from 'react-router-dom'
  
 function Banner() {
-  const scrollToContact = () => {
-    window.scrollTo({ top: 3990, behavior: 'smooth' });
+  const scrollToHome = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 };
   return (
     <>
@@ -20,7 +20,7 @@ function Banner() {
             </div>
             <div data-w-id="a0e8f58f-cf68-25b4-f70a-93eceec991ab"  style={{textAlign:"center"}}
               className="home-hero-form-block">
-              <Link onClick={scrollToContact} to="/" className="black-small-button w-button" style={{width:"200px"}}>Get In Touch</Link>
+              <Link onClick={scrollToHome} to="/contact-us" className="black-small-button w-button" style={{width:"200px"}}>Get In Touch</Link>
             </div>
           </div>
         </div>
