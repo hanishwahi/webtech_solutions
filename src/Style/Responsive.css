@@ -2019,11 +2019,11 @@
   
       
   
-    .features-tools-grid-cell {
+    /* .features-tools-grid-cell {
       width: 100%;
       margin-bottom: 30px;
       text-align: center;
-    }
+    } */
   
     .features-grid {
       -ms-grid-columns: 1fr 1fr;
