@@ -7532,11 +7532,14 @@ a.nav-brand.w-nav-brand.w--current {
 
   padding-bottom: 80px;
 }
+.tools-section{
+  padding: 50px 0px;
+}
 
 .tools-header {
   max-width: 839px;
   margin-right: auto;
-  margin-bottom: 65px;
+  margin-bottom: 30px;
   margin-left: auto;
 }
 
@@ -7572,8 +7575,7 @@ font-size: 18px;
 
 .features-tools-grid-cell {
  text-align: center;
- padding: 30px;
-}
+ }
 
 .tools-grid-image {
   margin-bottom: 32px;
@@ -8156,7 +8158,7 @@ font-size: 18px;
   display: -ms-flexbox;
   display: flex;
 
-   padding-bottom: 124px;
+   padding-bottom: 50px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -9010,7 +9012,7 @@ font-size: 18px;
 .home-hero-top {
   position: relative;
   background-color: #42ade3;
-  background-image: url('./Images/9246.png');
+  /* background-image: url('./Images/9246.png'); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;

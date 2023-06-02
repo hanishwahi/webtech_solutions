@@ -3,6 +3,9 @@
  
  
   @media screen and (max-width:479px) {
+    .how-it-works-point-heading {
+      text-align: center;
+  }
     .home-tabs-left-wrap h4 { 
       font-size: 22px;
       }
@@ -28,7 +31,7 @@
   font-size: 17px;
 }
     .features-tools-heading{
-        font-size: 22px !important;
+        font-size: 26px !important;
     }
     .main-cta-heading{
         font-size: 22px;
@@ -329,27 +332,21 @@
     .rich-text ul {
       font-size: 16px;
     }
+     
+    
     .home-hero-heading {
-      font-size: 32px;
-    }
+      font-size: 30px;
+     }
     .email-tools-sub-heading {
       font-size: 26px;
   }
    
-  .features-tools-heading {
-     font-size: 26px;
-     text-align: center;
-  
-  }
-  .email-lools-heading {
-    font-size: 26px;
-    text-align: center;
-  }
+   
   .email-tools-wrap {
     padding-bottom: 48px;
   }
   .how-it-works-heading {
-    font-size: 32px;
+    font-size: 26px;
   }
   .faq-heading {
     font-size: 32px;
@@ -618,6 +615,7 @@
   
     .how-it-works-header-text {
       font-size: 16px;
+      text-align: justify;
     }
   
     .how-it-works-left-contain.features {
@@ -626,6 +624,7 @@
   
     .how-it-works-point-text {
       font-size: 16px;
+      text-align: center;
     }
   
     .how-it-works-element {
@@ -863,9 +862,7 @@
     a.nav-brand.w-nav-brand.w--current {
       width: 19% !important;
   }
-  .email-lools-heading {
-    font-size: 28px;
-  }
+  
   .email-tools-sub-heading {
     font-size: 28px !important;
   }
@@ -997,7 +994,7 @@
       display: inline;
     }
     .email-lools-heading {
-      font-size: 32px;
+      font-size: 26px;
   }
   .email-tools-sub-heading {
     font-size: 32px;
@@ -1731,7 +1728,8 @@
     }
   
     .home-hero-text {
-      font-size: 20px;
+      font-size:18px;
+      text-align: justify;
     }
   
     .center-hero-wrapper {
