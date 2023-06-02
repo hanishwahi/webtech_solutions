@@ -13,6 +13,7 @@ import AboutUs from './Components/AboutUs';
 import GraphicDesigning from './Components/Services/GraphicDesigning';
 import PageNotFound from './Components/PageNotFound';
 import ContactForm from './Components/ContactForm';
+import OurTeam from './Components/OurTeam';
    
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/services/app-development' element={<AppDevelopment />} />
           <Route path='/services/graphic-designing' element={<GraphicDesigning/>} />
           <Route path='/contact-us' element={<ContactForm/>} />
+          <Route path='/our-team' element={<OurTeam/>} />
            <Route path='*' element={<PageNotFound/>}/>
          </Routes>
  

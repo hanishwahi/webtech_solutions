@@ -8152,6 +8152,26 @@ font-size: 18px;
   bottom: 0%;
 }
 
+.OurTeam-heading h5{
+   font-size: 26px;
+  color: #42ade3;
+}
+.OurTeam-heading p{
+  margin-bottom: 36px;
+    text-align: justify;
+    color: #6e7687;
+    font-size: 17px;
+    line-height: 155%;
+}
+.card-title{
+  font-size: 22px;
+}
+.card-text{
+  font-size: 17px;
+  font-weight: 600;
+
+}
+
 .email-tools-wrap {
   display: -webkit-box;
   display: -webkit-flex;
