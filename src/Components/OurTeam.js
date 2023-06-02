@@ -5,12 +5,19 @@ import Hanish from '../Images/hanish.jpg'
 import Param from '../Images/param.jpg'
 import Shamse from '../Images/shamse.jpg'
 import Nidhi from '../Images/nidhi.jpg'
+import Kuldeep from '../Images/kuldeep.jpg'
+import Simar from '../Images/simar.jpg'
+import Anuj from '../Images/anuj.jpg'
  
 function OurTeam() {
     return (
         <>
             <div className='container-fluid'>
                 <div className='container'>
+                    <div className='row pt-5'>
+                    <h5 className="home-tabs-heading mb-4">Our Team</h5>
+
+                    </div>
                     <div className='row  OurTeam-heading  py-5'>
                         <h5 className="mb-4">Introducing Our All-Star Squad: Unleashing Innovation and Excellence</h5>
                         <p>At Web Tech Solutions Services, we pride ourselves on the collective brilliance of our dedicated team. With a passion for innovation and a commitment to excellence, our diverse experts bring a wealth of experience to the table. From visionary leaders to creative minds, we collaborate seamlessly to deliver exceptional results. Trust us to surpass your expectations as we work tirelessly to achieve your goals.<br /><br /> Get to know the faces behind our success and experience the power of a united team that's driven by your success.
@@ -21,7 +28,7 @@ function OurTeam() {
                         <div class="row row-cols-1 row-cols-md-3 g-4 pb-5">
                             <div class="col">
                                 <div class="card">
-                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top"
+                                    <img src={Simar} class="card-img-top"
                                         alt="Hollywood Sign on The Hill" />
                                     <div class="card-body">
                                         <h5 class="card-title">Simarjit Kaur </h5>
@@ -33,7 +40,7 @@ function OurTeam() {
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top"
+                                    <img src={Kuldeep} class="card-img-top"
                                         alt="Palm Springs Road" />
                                     <div class="card-body">
                                         <h5 class="card-title">Kuldeep Singh</h5>
@@ -53,18 +60,7 @@ function OurTeam() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
-                                <div class="card">
-                                    <img src={Ankit} class="card-img-top"
-                                        alt="Skyscrapers" />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Ankit Kumar</h5>
-                                        <p class="card-text">
-                                            Online Marketing Expert
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="col">
                                 <div class="card">
                                     <img src={Gaurav} class="card-img-top"
@@ -77,6 +73,7 @@ function OurTeam() {
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="col">
                                 <div class="card">
                                     <img src={Nidhi} class="card-img-top"
@@ -89,21 +86,24 @@ function OurTeam() {
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col">
                                 <div class="card">
-                                    <img src={Param} class="card-img-top"
+                                    <img src={Ankit} class="card-img-top"
                                         alt="Skyscrapers" />
                                     <div class="card-body">
-                                        <h5 class="card-title">Parampreet kaur</h5>
+                                        <h5 class="card-title">Ankit Kumar</h5>
                                         <p class="card-text">
-                                            SMM (Social Media Marketer)
+                                            Online Marketing Expert
                                         </p>
                                     </div>
                                 </div>
                             </div>
+                            
+                            
                             <div class="col">
                                 <div class="card">
-                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top"
+                                    <img src={Anuj} class="card-img-top"
                                         alt="Skyscrapers" />
                                     <div class="card-body">
                                         <h5 class="card-title">Anuj Thakur</h5>
@@ -121,6 +121,18 @@ function OurTeam() {
                                         <h5 class="card-title">Shamse Alam</h5>
                                         <p class="card-text">
                                             Wordpress Developer
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src={Param} class="card-img-top"
+                                        alt="Skyscrapers" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Parampreet kaur</h5>
+                                        <p class="card-text">
+                                            SMM (Social Media Marketer)
                                         </p>
                                     </div>
                                 </div>
