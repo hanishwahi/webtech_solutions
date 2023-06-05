@@ -5147,10 +5147,9 @@ a.nav-brand.w-nav-brand.w--current {
 .newMenuMain{
   position: relative;
   cursor: pointer;
+ }
 
-}
-
-.newMenu {
+.newMenu { 
   position: fixed;
   background: #fff;
   z-index: 20;
@@ -8091,6 +8090,26 @@ font-size: 18px;
   grid-column-gap: 50px;
   grid-row-gap: 43px;
 }
+.our-team-main{
+  position: relative;
+}
+/* .our-team-content{
+  position: absolute;
+  text-align: center;
+  align-self: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+ }
+.our-team-content h1{
+  width: 210px;
+  border: 1px solid #42ade3;
+padding: 5px ;
+  } */
+
+
+ 
+
 
 .faq-wrapper {
   width: 90%;

@@ -7,13 +7,12 @@ function AboutUs() {
     return (
         <>
             <div className='container-fluid'>
-                <div className='row  position-relative'>
+                <div className='row'>
                     <div className='col px-0'>
                         <img className='overflow-hidden px-0'
                             src={Aboutus}
                             alt=''/>
                     </div>
-
                 </div>
 
                 <div className='container'>

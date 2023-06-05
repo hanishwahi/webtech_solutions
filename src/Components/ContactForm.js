@@ -60,7 +60,7 @@ function ContactForm() {
                 <input onClick={submitData}  type="submit" value="Send message" data-wait="Please wait..."
                   className="contact-submit-button w-button" />
 
-
+ 
               </form>
               <div className="success-message w-form-done" tabIndex="-1" role="region" aria-label="Contact Form success">
                 <div>Thank you! Your submission has been received!</div>

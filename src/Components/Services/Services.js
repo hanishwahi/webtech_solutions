@@ -6,6 +6,8 @@ import Appdevelopment from '../../Images/MobileAppdevelopment.png'
 import Graphicdesign from '../../Images/graphic-design.jpg'
 import Services_Enterprice from '../../Images/Services_websolution1.png'
 import Whychooseus from '../../Images/whychooseus.jpg'
+import Servicebanner from '../../Images/ourService1.jpg'
+
 
 
 function Services() {
@@ -15,6 +17,15 @@ function Services() {
   };
   return (
     <>
+
+      <div className='row'>
+        <div className='col px-0'>
+          <img className='overflow-hidden px-0'
+            src={Servicebanner}
+            alt='' />
+        </div>
+         
+      </div>
       <div className="home-tabs-section wf-section mb-5" id="SERVICES">
         <div data-w-id="95d7781a-fa4b-8be9-8175-88d05612bb2f" className="home-tabs-wrapper">
           <div className="hob-tabs-header">
