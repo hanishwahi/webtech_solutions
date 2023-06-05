@@ -5216,7 +5216,7 @@ a.nav-brand.w-nav-brand.w--current {
 .digital_marketing_list li{
   color: #42ade3 !important;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
 }
 .digital_marketing_list p{
   color: #6e7687 !important;
@@ -6049,9 +6049,8 @@ a.nav-brand.w-nav-brand.w--current {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  font-size: 36px;
-  font-family: fangsong;
-  color: #42ade3;
+  font-size: 34px;
+   color: #42ade3;
   text-transform: uppercase;
 }
 
