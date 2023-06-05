@@ -9,8 +9,10 @@ function CreateWebsite() {
             <div className="col email-tools-section wf-section" id="ABOUT">
               <div className="row email-tools-wrap">
                 <div className="email-tools-left text-sm-center ">
-                  <img className='img-fluid'
+                  <img 
                     src="https://ik.imagekit.io/ebike99/main_images_TRT.png?updatedAt=1684996165888"
+                    width={1020}
+                    height={650}
                     loading="lazy" 
                     alt="" />
                 </div>
