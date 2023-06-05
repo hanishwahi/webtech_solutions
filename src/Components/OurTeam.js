@@ -22,11 +22,11 @@ function OurTeam() {
                     </div>
                      
                 </div>
-                <div className='container'>
-                    <div className='row pt-5'>
-                        <h5 className="home-tabs-heading mb-4">Our Team</h5>
+                <div className='container-lg'>
+                    <div className='row pt-md-5 pt-4'>
+                        <h3 className="home-tabs-heading">Our Team</h3>
                     </div>
-                    <div className='row  OurTeam-heading  py-5'>
+                    <div className='row OurTeam-heading pt-md-4 '>
                         <h5 className="mb-4">Introducing Our All-Star Squad: Unleashing Innovation and Excellence</h5>
                         <p>At Web Tech Solutions Services, we pride ourselves on the collective brilliance of our dedicated team. With a passion for innovation and a commitment to excellence, our diverse experts bring a wealth of experience to the table. From visionary leaders to creative minds, we collaborate seamlessly to deliver exceptional results. Trust us to surpass your expectations as we work tirelessly to achieve your goals.<br /><br /> Get to know the faces behind our success and experience the power of a united team that's driven by your success.
                         </p>

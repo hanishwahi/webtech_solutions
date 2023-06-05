@@ -15,16 +15,16 @@ function AboutUs() {
                     </div>
                 </div>
 
-                <div className='container'>
-                    <div className=" row mt-5 tabs-content-text digital_marketing_list">
+                <div className='container-lg'>
+                    <div className="row mt-md-5 tabs-content-text digital_marketing_list">
                         <div className='col'>
-                            <div className='text-center row py-4'>
-                                <h5 className="home-tabs-heading">About Us
-                                </h5>
-                                <p className='text-dark'>At Web Tech Solutions Service, we believe that your website is your digital storefront, and it deserves to make a lasting impression. Our expert team of designers and developers combine creativity, technical expertise, and industry best practices to deliver exceptional websites that captivate audiences and drive results, whether it comes to digital strategy, site design, customised programming, e-commerce, and internet marketing.</p>
+                            <div className='text-center row py-3'>
+                                <h3 className="home-tabs-heading">About Us
+                                </h3>
+                                <p className='text-dark pt-md-4'>At Web Tech Solutions Service, we believe that your website is your digital storefront, and it deserves to make a lasting impression. Our expert team of designers and developers combine creativity, technical expertise, and industry best practices to deliver exceptional websites that captivate audiences and drive results, whether it comes to digital strategy, site design, customised programming, e-commerce, and internet marketing.</p>
                             </div>
 
-                            <div className='row py-5'>
+                            <div className='row py-md-5'>
                                 <div className='col-lg-6 col-md-12 mb-3'>
                                     <img src={Mission}
                                         alt=''/>

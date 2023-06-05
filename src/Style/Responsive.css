@@ -3,6 +3,14 @@
  
  
   @media screen and (max-width:479px) {
+    .OurTeam-heading h5 {
+      font-size: 20px; 
+  }
+    .home-tabs-wrapper {
+      
+      padding-top: 10px;
+      
+  }
     .how-it-works-point-heading {
       text-align: center;
   }
@@ -22,7 +30,7 @@
       font-size: 14px;
     }
     .home-tabs-sub-heading {
-      font-size: 22px !important;
+      font-size: 20px !important;
   }
   .digital_marketing_list p {
     font-size: 15px;
@@ -847,6 +855,15 @@
   }
   
   @media screen and (min-width:480px) and (max-width:767px){
+    .home-tabs-sub-heading {
+      font-size: 24px;
+  }
+    .OurTeam-heading h5 {
+      font-size: 24px;
+  }
+    .home-tabs-heading {
+      font-size: 30px;
+  }
     .home-hero-heading {
         font-size: 30px;
     }
@@ -1191,9 +1208,7 @@
       padding-bottom: 15px;
     }
   
-    .home-tabs-sub-heading {
-      font-size: 20px;
-    }
+    
   
     .main-cta-left-contain {
       width: auto;
@@ -1869,10 +1884,7 @@
       padding-bottom: 30px;
     }
   
-    .home-tabs-sub-heading {
-      font-size: 22px;
-    }
-  
+     
     .main-cta-wrapper {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;

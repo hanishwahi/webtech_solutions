@@ -4965,7 +4965,7 @@ figcaption {
   position: static;
   margin-right: 0px;
   margin-left: 0px;
-  padding: 10px 16px;
+  padding: 10px 10px;
   -webkit-transition: color 200ms ease-in-out;
   transition: color 200ms ease-in-out;
   font-family: Epilogue, sans-serif;
@@ -5232,7 +5232,7 @@ a.nav-brand.w-nav-brand.w--current {
   max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
-  padding: 80px 0px 80px 0px;
+  padding: 60px 0px 80px 0px;
 }
 
 .home-hero-wrapper2 {
@@ -6029,14 +6029,14 @@ a.nav-brand.w-nav-brand.w--current {
   background-color: #fff;
 }
 
-.home-tabs-wrapper {
+/* .home-tabs-wrapper {
   width: 90%;
   max-width: 1169px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 50px;
   padding-bottom: 50px;
-}
+} */
 
 .hob-tabs-header {
 
@@ -6050,7 +6050,9 @@ a.nav-brand.w-nav-brand.w--current {
   margin-left: auto;
   text-align: center;
   font-size: 36px;
+  font-family: fangsong;
   color: #42ade3;
+  text-transform: uppercase;
 }
 
 .home-tabs-header-text {
@@ -6194,7 +6196,7 @@ a.nav-brand.w-nav-brand.w--current {
 
 .home-tabs-sub-heading {
   color: #42ade3;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .tabs-content-text {
