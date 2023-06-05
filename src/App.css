@@ -6196,6 +6196,7 @@ a.nav-brand.w-nav-brand.w--current {
 
 .home-tabs-sub-heading {
   color: #42ade3;
+  font-weight: 400;
   font-size: 26px;
 }
 
@@ -7125,7 +7126,8 @@ a.nav-brand.w-nav-brand.w--current {
 
 .faq-heading {
   margin-bottom: 60px;
-  font-size: 34px;
+  font-size: 32px;
+  color: #42ade3;
 }
 
 .faq-card {
@@ -7291,7 +7293,8 @@ a.nav-brand.w-nav-brand.w--current {
 .how-it-works-heading {
   margin-bottom: 20px;
   text-align: center;
-  font-size: 34px;
+  font-size: 32px;
+  color: #42ade3; 
 }
 
 .how-it-works-header-text {
@@ -7384,6 +7387,7 @@ a.nav-brand.w-nav-brand.w--current {
 .how-it-works-point-heading {
   margin-bottom: 10px;
   font-size: 22px;
+  color: #42ade3;
 }
 
 .how-it-works-point-text {
@@ -7546,8 +7550,9 @@ a.nav-brand.w-nav-brand.w--current {
 
 .features-tools-heading {
   text-align: center;
-  font-size: 34px;
+  font-size: 32px;
   line-height: 36px;
+  color: #42ade3;
 }
 
 .features-tools-header-text {
@@ -8175,6 +8180,7 @@ padding: 5px ;
 
 .OurTeam-heading h5{
    font-size: 26px;
+   font-weight: 400;
   color: #42ade3;
 }
 .OurTeam-heading p{
@@ -8224,9 +8230,10 @@ padding: 5px ;
   margin-bottom: 32px;
 }
 .email-lools-heading{
-  font-size: 33px;
+  font-size: 32px;
   line-height: 34px;
-}
+  color: #42ade3;
+ }
 
 .email-tools-text {
   color: #6e7687;
@@ -8256,6 +8263,7 @@ padding: 5px ;
 }
 .email-tools-sub-heading{
   font-size: 36px;
+  color: #42ade3;
 }
 
 .email-tools-sub-text {
