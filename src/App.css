@@ -5,8 +5,8 @@ html {
 }
 
 body {
-  margin: 0
-}
+  margin: 0;
+ }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block
@@ -6982,7 +6982,7 @@ a.nav-brand.w-nav-brand.w--current {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 16px 64px;
+  padding: 16px 18px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -8261,7 +8261,7 @@ padding: 5px ;
   margin-bottom: 4px;
 }
 .email-tools-sub-heading{
-  font-size: 36px;
+  font-size: 32px;
   color: #42ade3;
 }
 

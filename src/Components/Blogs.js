@@ -2,9 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
  
 function Blogs() {
-
- 
-  
   return (
     <>
       <div className="home-blog-section wf-section" id="BLOGS">

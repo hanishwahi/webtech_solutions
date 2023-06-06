@@ -9,13 +9,11 @@ function ContactForm() {
 
       <div className="contact-hero-section wf-section" id="CONTACT">
         <div className="home-hero-wrapper2">
-         
-          
           <div className='row'>
             <div className="home-hero-header align-self-center">
-            <h1 data-w-id="b3f9c3ce-27d6-c5d4-fcad-2662440c4edb" className="home-hero-heading">
-            Get in touch
-          </h1>
+              <h1 data-w-id="b3f9c3ce-27d6-c5d4-fcad-2662440c4edb" className="home-hero-heading">
+                Get in touch
+              </h1>
               <div data-w-id="fbc19c8e-292c-80bc-c002-20fb48dcf512" className="home-hero-text">
                 Our support team is here and ready to assist you with any issue
                 you might experience while using WebTechSolutions.
@@ -57,10 +55,10 @@ function ContactForm() {
                       className="contact-text-field message w-input" spellCheck="false"></textarea>
                   </div>
                 </div>
-                <input onClick={submitData}  type="submit" value="Send message" data-wait="Please wait..."
+                <input onClick={submitData} type="submit" value="Send message" data-wait="Please wait..."
                   className="contact-submit-button w-button" />
 
- 
+
               </form>
               <div className="success-message w-form-done" tabIndex="-1" role="region" aria-label="Contact Form success">
                 <div>Thank you! Your submission has been received!</div>

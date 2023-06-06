@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Digitalmarketingimg from '../Images/Digital-Marketing-1-v.webp'
 
 function TakeEmail() {
   return (
@@ -17,7 +18,7 @@ function TakeEmail() {
             <Link to="/" className="main-cta-button w-button">Get Started</Link> 
           </div>
           <div className="main-cta-image">
-            <img src="https://drive.google.com/uc?export=download&id=1avtFnfzElFR5BFUcSKoNQI4tvqE_3V_D" loading="lazy"  
+            <img src={Digitalmarketingimg} loading="lazy"  
                    sizes="(max-width: 767px) 90vw, (max-width: 991px) 550px, (max-width: 1439px) 52vw, 727px" alt="" />
           </div>
         </div>
