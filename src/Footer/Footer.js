@@ -34,9 +34,9 @@ function Footer() {
                                 <Link to="mailto:info@webtechsolutionsservice.com" className="footer-link">info@webtechsolutionsservice.com</Link>
                             </div>
                             <div className='d-flex gap-3 social-links'>
-                                <Link to="https://www.linkedin.com/company/94817555/" target="_blank" className="footer-link"><i class="fa-brands fa-linkedin"></i></Link>
-                                <Link to="https://www.instagram.com/web_tech_solutions_/" target="_blank" className="footer-link"><i class="fa-brands fa-instagram"></i></Link>
-                                <Link to="https://www.facebook.com/profile.php?id=100092329305359" target="_blank" className="footer-link"><i class="fa-brands fa-square-facebook"></i></Link>
+                                <Link to="https://www.linkedin.com/company/94817555/" target="_blank" className="footer-link"><i className="fa-brands fa-linkedin"></i></Link>
+                                <Link to="https://www.instagram.com/web_tech_solutions_/" target="_blank" className="footer-link"><i className="fa-brands fa-instagram"></i></Link>
+                                <Link to="https://www.facebook.com/profile.php?id=100092329305359" target="_blank" className="footer-link"><i className="fa-brands fa-square-facebook"></i></Link>
                              </div>
                         </div>
                     </div>

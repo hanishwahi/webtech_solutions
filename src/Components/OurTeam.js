@@ -11,8 +11,10 @@ import Anuj from '../Images/anuj.jpg'
 import Teambanner from '../Images/ourteammain.png'
 
 function OurTeam() {
+ 
     return (
         <>
+
             <div className='container-fluid'>
                 <div className='row our-team-main'>
                     <div className='col px-0'>
@@ -33,75 +35,75 @@ function OurTeam() {
                     </div>
 
 
-                    <div class="row row-cols-1 row-cols-md-3 g-4 pb-5">
-                        <div class="col">
-                            <div class="card">
-                                <img src={Simar} class="card-img-top"
+                    <div className="row row-cols-1 row-cols-md-3 g-4 pb-5">
+                        <div className="col">
+                            <div className="card">
+                                <img src={Simar} className="card-img-top"
                                     alt="Hollywood Sign on The Hill" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Simarjit Kaur </h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">Simarjit Kaur </h5>
+                                    <p className="card-text">
                                         Senior HR Executive
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src={Kuldeep} class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Kuldeep} className="card-img-top"
                                     alt="Palm Springs Road" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Kuldeep Singh</h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">Kuldeep Singh</h5>
+                                    <p className="card-text">
                                         Sr. Digital Marketing Expert
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src={Hanish} class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Hanish} className="card-img-top"
                                     alt="Los Angeles Skyscrapers" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Hanish Wahi</h5>
-                                    <p class="card-text">React Developer</p>
+                                <div className="card-body">
+                                    <h5 className="card-title">Hanish Wahi</h5>
+                                    <p className="card-text">React Developer</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="card">
-                                <img src={Gaurav} class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Gaurav} className="card-img-top"
                                     alt="Skyscrapers" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Gaurav Sharma</h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">Gaurav Sharma</h5>
+                                    <p className="card-text">
                                         Online Marketing Executive
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="card">
-                                <img src={Nidhi} class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Nidhi} className="card-img-top"
                                     alt="Skyscrapers" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Nidhi Jaswal</h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">Nidhi Jaswal</h5>
+                                    <p className="card-text">
                                         SMO (Social Media Optimization)
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="card">
-                                <img src={Ankit} class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Ankit} className="card-img-top"
                                     alt="Skyscrapers" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Ankit Kumar</h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">Ankit Kumar</h5>
+                                    <p className="card-text">
                                         Online Marketing Expert
                                     </p>
                                 </div>
@@ -109,37 +111,37 @@ function OurTeam() {
                         </div>
 
 
-                        <div class="col">
-                            <div class="card">
-                                <img src={Anuj} class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Anuj} className="card-img-top"
                                     alt="Skyscrapers" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Anuj Thakur</h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">Anuj Thakur</h5>
+                                    <p className="card-text">
                                         SEO Executive
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src={Shamse} class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Shamse} className="card-img-top"
                                     alt="Skyscrapers" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Shamse Alam</h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">Shamse Alam</h5>
+                                    <p className="card-text">
                                         Wordpress Developer
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src={Param} class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Param} className="card-img-top"
                                     alt="Skyscrapers" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Parampreet kaur</h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">Parampreet kaur</h5>
+                                    <p className="card-text">
                                         SMM (Social Media Marketer)
                                     </p>
                                 </div>
