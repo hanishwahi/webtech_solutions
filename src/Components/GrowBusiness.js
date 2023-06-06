@@ -1,7 +1,7 @@
 import React from 'react'
-import Project_comp from '../Images/project_comp.png'
-import Happy_client from '../Images/happy_clients.png'
-import Result from '../Images/results__2_.png'
+import Project_comp from '../Images/Projects Completed.png'
+import Happy_client from '../Images/Happy Clients.png'
+import Result from '../Images/result (1).png'
 
 function DataMapping() {
   return (
@@ -18,7 +18,8 @@ function DataMapping() {
               <div className="features-tools-grid-contain row">
                 <div className="features-tools-grid-cell col-lg-4 col-md-6">
                   <div className='shadow py-5 px-3' >
-                    <img
+                    <img 
+                    width={140}
                       src={Project_comp}
                       loading="lazy" alt="" className="tools-grid-image" />
                     <h5 className="tools-grid-heading">100+ Projects Completed</h5>
@@ -28,6 +29,7 @@ function DataMapping() {
                 <div className="features-tools-grid-cell col-lg-4 col-md-6">
                   <div className='shadow py-5 px-3' >
                     <img
+                     width={140}
                       src={Happy_client}
                       loading="lazy" alt="" className="tools-grid-image" />
                     <h5 className="tools-grid-heading">90+ Happy Clients</h5>
@@ -37,6 +39,7 @@ function DataMapping() {
                 <div className="features-tools-grid-cell col-lg-4 col-md-6">
                   <div className='shadow py-5 px-3' >
                     <img
+                    width={140}
                       src={Result}
                       loading="lazy" alt="" className="tools-grid-image" />
                     <h5 className="tools-grid-heading">55+ Amazing Result</h5>
