@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link , Outlet} from 'react-router-dom'
 import WebtechLogo2 from '../Images/webtechlogo2.png'
 
 function Navbar() {
@@ -18,13 +18,11 @@ function Navbar() {
   const showMe = () => {
     if (!menuBar) {
       setMenuBar(true);
-      console.log("true")
-    }
+     }
 
     else {
       setMenuBar(false);
-      console.log("false")
-    }
+     }
   }
 
   return (
@@ -60,6 +58,8 @@ function Navbar() {
         <Link onClick={scrollToHome} to="tel:+1(877)966-2244" className="nav-link w-nav-link">+1(877)966-2244</Link>
       </div>
       </div></>}
+
+      <Outlet />
     </>
   )
 }

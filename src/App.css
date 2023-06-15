@@ -5147,9 +5147,9 @@ a.nav-brand.w-nav-brand.w--current {
 .newMenuMain{
   position: relative;
   cursor: pointer;
- }
+   }
 
-.newMenu { 
+.newMenu {
   position: fixed;
   background: #fff;
   z-index: 20;

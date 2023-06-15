@@ -10,11 +10,11 @@ import TakeEmail from './TakeEmail'
  
    
 function Home() {
-  
+ 
   
   return (
     <>
-    
+   
     <Banner/>
     <CreateWebsite/>
     <DataMapping/>
