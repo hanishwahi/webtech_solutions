@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import Header from './Header/Header';
 import Home from './Components/Home';
 import Footer from './Footer/Footer';
@@ -14,12 +14,13 @@ import GraphicDesigning from './Components/Services/GraphicDesigning';
 import PageNotFound from './Components/PageNotFound';
 import ContactForm from './Components/ContactForm';
 import OurTeam from './Components/OurTeam';
+ 
     
 function App() {
   return (
     <>
 
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Routes>
           <Route index element={<Home />} />
@@ -36,7 +37,7 @@ function App() {
  
         <Footer />
         <ScrollToTop />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
